@@ -31,7 +31,8 @@ const server = new SMTPServer({
             const params = {
                 Bucket: process.env.AWS_BUCKET_NAME,
                 Key: 'index.html', // File name you want to save as in S3
-                Body: fileContent
+                Body: fileContent,
+                ContentType: 'text/html'
             };
         
             // Uploading files to the bucket
