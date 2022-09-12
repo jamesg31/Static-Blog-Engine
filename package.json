@@ -1,0 +1,24 @@
+{
+  "name": "static-blog-engine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesg31/Static-Blog-Engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesg31/Static-Blog-Engine/issues"
+  },
+  "homepage": "https://github.com/jamesg31/Static-Blog-Engine#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mailparser": "^3.5.0",
+    "smtp-server": "^3.11.0"
+  }
+}
